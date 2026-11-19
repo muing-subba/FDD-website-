@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News &amp; Updates | LBEF HOOP FEST 2027</title>
+  <meta name="description" content="Stay updated with official bulletins, match fixture releases, registration updates, coach clinics, and volunteer notices for LBEF HOOP FEST 2027.">
+  <link rel="icon" type="image/png" href="assets/images/lbef-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="top-bar-links">
+        <span><span class="material-symbols-outlined" style="color: var(--court-orange); font-size: 14px;">location_on</span> Maitidevi, Kathmandu, Nepal</span>
+        <span style="opacity: 0.3;">|</span>
+        <span><span class="material-symbols-outlined" style="color: var(--court-orange); font-size: 14px;">call</span> +977-9801234567</span>
+        <span style="opacity: 0.3;">|</span>
+        <span><span class="material-symbols-outlined" style="color: var(--court-orange); font-size: 14px;">mail</span> basketball@study.lbef.edu.np</span>
+      </div>
+      <div>
+        <span class="event-badge">
+          <span class="pulse-dot"></span>
+          Tournament Dates: Oct 25 – 30, 2027
+        </span>
+      </div>
+    </div>
+
+    <div class="header-main">
+      <a href="index.html" class="logo-lockup" title="LBEF Hoop Fest 2027 Home">
+        <div class="logo-img-wrapper">
+          <img src="assets/images/lbef-logo.png" alt="LBEF College Logo - Since 1998">
+        </div>
+        <div class="logo-text">
+          <div class="logo-title-row">
+            <span class="logo-title">LBEF HOOP FEST</span>
+            <span class="year-tag">2027</span>
+          </div>
+          <span class="logo-sub">Lord Buddha Education Foundation</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="schedule.html">Schedule</a></li>
+          <li class="nav-item"><a href="competitions.html">Competitions</a></li>
+          <li class="nav-item"><a href="resources.html">Resources</a></li>
+          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a href="news.html" class="active">News</a></li>
+          <li class="nav-item"><a href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a href="highlights.html">Highlights</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="schedule.html" class="btn-live-scores">
+          <span class="pulse-dot"></span>
+          Live Scores
+        </a>
+        <a href="registration.html" class="btn btn-primary btn-sm">
+          <span>Register Team</span>
+        </a>
+        <div class="auth-nav-slot">
+          <a href="login.html" class="btn btn-secondary btn-sm">
+            <span class="material-symbols-outlined" style="font-size: 16px;">person</span>
+            <span>Login</span>
+          </a>
+        </div>
+        <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle dark or light theme">
+          <span class="material-symbols-outlined">light_mode</span>
+        </button>
+        <button type="button" class="menu-toggle" onclick="toggleMobileMenu()" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="hamburger-icon" aria-hidden="true">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-drawer" class="mobile-drawer">
+      <div class="mobile-theme-row">
+        <span id="mobile-theme-label">Dark Mode Active</span>
+        <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle dark or light theme">
+          <span class="material-symbols-outlined">light_mode</span>
+        </button>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Tournament</a></li>
+        <li><a href="schedule.html">Match Schedule</a></li>
+        <li><a href="registration.html">Team &amp; Volunteer Registration</a></li>
+        <li><a href="competitions.html">Rules &amp; Tournament Bracket</a></li>
+        <li><a href="resources.html">Resources &amp; Downloads</a></li>
+        <li><a href="gallery.html">Photo &amp; Video Gallery</a></li>
+        <li><a href="news.html" class="active">News &amp; Bulletins</a></li>
+        <li><a href="highlights.html">Highlights Gallery</a></li>
+        <li><a href="sponsors.html">Sponsors &amp; Partners</a></li>
+        <li><a href="faq.html">Frequently Asked Questions</a></li>
+        <li><a href="contact.html">Venue &amp; Contact Secretariat</a></li>
+        <li><a href="feedback.html">Tournament Survey &amp; Feedback</a></li>
+        <li><a href="dashboard.html">Participant Dashboard</a></li>
+        <li><a href="login.html">Demo Login</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE HERO HEADER -->
+    <section class="page-hero-band">
+      <div style="max-width: 800px; margin: 0 auto;">
+        <span class="section-kicker" style="justify-content: center; margin-bottom: 8px;">
+          <span class="material-symbols-outlined" style="font-size: 16px;">newspaper</span>
+          Secretariat Dispatches &bull; Media Hub
+        </span>
+        <h1 style="font-family: var(--font-display); font-size: clamp(30px, 4.5vw, 46px); color: var(--pure-white); font-weight: 800; text-transform: uppercase;">
+          News &amp; Updates
+        </h1>
+        <p style="font-size: 14px; color: var(--secondary); max-width: 600px; margin: 8px auto 0 auto;">
+          Official fixture schedules, registration deadlines, referee assignments, training clinic alerts, and courtside updates for Hoop Fest 2027.
+        </p>
+      </div>
+    </section>
+
+    <!-- SEARCH & FILTER BAR -->
+    <section class="section-wrapper" style="padding-top: 32px; padding-bottom: 24px;">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; background: var(--varsity-navy); border: 1px solid var(--court-border); padding: 16px 20px; border-radius: var(--radius-md);">
+        <div style="position: relative; flex: 1; min-width: 240px;">
+          <input type="text" id="news-search" class="form-input" style="width: 100%; padding-left: 36px;" placeholder="Search tournament announcements..." oninput="filterNews()">
+          <span class="material-symbols-outlined" style="position: absolute; left: 10px; top: 11px; color: var(--text-muted); font-size: 18px;">search</span>
+        </div>
+
+        <div class="tabs-container" style="margin-bottom: 0;">
+          <button type="button" class="tab-btn news-filter active" onclick="setNewsCat('all', this)">All Stories</button>
+          <button type="button" class="tab-btn news-filter" onclick="setNewsCat('fixtures', this)">Fixtures</button>
+          <button type="button" class="tab-btn news-filter" onclick="setNewsCat('registration', this)">Registration</button>
+          <button type="button" class="tab-btn news-filter" onclick="setNewsCat('rules', this)">Regulations</button>
+          <button type="button" class="tab-btn news-filter" onclick="setNewsCat('campus', this)">Campus Life</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS ARTICLES GRID (Rendered dynamically by js/news.js) -->
+    <section class="section-wrapper" style="padding-top: 0;">
+      <div id="news-grid" class="bento-grid">
+        <!-- Rendered from TOURNAMENT_NEWS in js/news.js -->
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SUBSCRIPTION -->
+    <section class="section-wrapper" style="background: var(--varsity-navy); border-top: 1px solid var(--court-border); text-align: center;">
+      <h2 style="font-family: var(--font-display); font-size: 26px; color: var(--pure-white); margin-bottom: 8px; text-transform: uppercase;">
+        Subscribe to Live Dispatches
+      </h2>
+      <p style="font-size: 14px; color: var(--secondary); max-width: 500px; margin: 0 auto 20px auto;">
+        Receive breaking match highlights, rescheduled tip-off times, and photo galleries directly to your student email.
+      </p>
+      <form onsubmit="handleNewsletter(event)" novalidate data-validate-form style="max-width: 440px; margin: 0 auto;">
+        <div class="form-group" style="margin-bottom: 8px; text-align: left;">
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <input type="email" id="news-newsletter-email" class="form-input" data-validate="email" data-label="Email Address" data-error-id="err-news-newsletter" style="flex: 1; min-width: 200px;" placeholder="Enter your college email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          <span id="err-news-newsletter" class="error-text"></span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px;">
+          <div class="footer-logo-wrapper">
+            <img src="assets/images/lbef-logo.png" alt="LBEF College Logo - Since 1998" class="footer-logo-img">
+          </div>
+          <div>
+            <h4 style="margin: 0; font-size: 15px;">LBEF HOOP FEST</h4>
+            <span style="font-size: 11px; color: var(--court-orange); font-weight: 700; text-transform: uppercase;">Varsity Championship 2027</span>
+          </div>
+        </div>
+        <p>The premier collegiate inter-university basketball championship in Kathmandu, hosting elite student talent, sportsmanship, and college pride.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Tournament Hub</h4>
+        <ul class="footer-links">
+          <li><a href="schedule.html">Match Fixtures &amp; Scores</a></li>
+          <li><a href="competitions.html">Divisions &amp; Brackets</a></li>
+          <li><a href="registration.html">Team &amp; Volunteer Signup</a></li>
+          <li><a href="news.html">Press Releases &amp; Bulletins</a></li>
+          <li><a href="faq.html">Rules &amp; FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Official Regulations</h4>
+        <p style="margin-bottom: 14px;">All student athletes and visiting teams are subject to FIBA international standards and LBEF campus code.</p>
+        <ul class="footer-links">
+          <li><a href="resources.html">Official Rulebook &amp; Code</a></li>
+          <li><a href="resources.html">Player Eligibility Checklist</a></li>
+          <li><a href="resources.html">Emergency &amp; Medical Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Tournament Secretariat</h4>
+        <ul class="footer-links">
+          <li style="display: flex; gap: 8px;">
+            <span class="material-symbols-outlined" style="color: var(--court-orange); font-size: 16px;">location_on</span>
+            <span>Lord Buddha Education Foundation, Maitidevi, Kathmandu, Nepal</span>
+          </li>
+          <li style="display: flex; gap: 8px;">
+            <span class="material-symbols-outlined" style="color: var(--court-orange); font-size: 16px;">call</span>
+            <span>+977-9801234567</span>
+          </li>
+          <li style="display: flex; gap: 8px;">
+            <span class="material-symbols-outlined" style="color: var(--court-orange); font-size: 16px;">mail</span>
+            <span>basketball@study.lbef.edu.np</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2027 Lord Buddha Education Foundation. Lord Buddha Education Foundation, Maitidevi, Kathmandu, Nepal.</p>
+      <div class="footer-bottom-links">
+        <a href="about.html">About Tournament</a>
+        <a href="competitions.html">Tournament Terms</a>
+        <a href="contact.html">Venue Guide</a>
+        <a href="feedback.html">Submit Survey</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="back-to-top" class="back-to-top" aria-label="Scroll to top">
+    <span class="material-symbols-outlined">arrow_upward</span>
+  </a>
+
+  <script src="js/config.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/news.js"></script>
+</body>
+</html>

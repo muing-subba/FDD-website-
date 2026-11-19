@@ -1,0 +1,16 @@
+Match ID,Round,Date,Time,Court,Team 1,Team 2,Status
+CER-01,Ceremony,2027-10-25,08:30 AM NPT,Court 1 - Main Arena,All 16 Participating Teams,Athletic Council,Completed
+M01,Group Stage,2027-10-25,10:00 AM NPT,Court 1 - Main Arena,Cyber Warriors,Cloud Hawks,Completed
+M02,Group Stage,2027-10-25,12:30 PM NPT,Court 2 - East Wing,KTM Dunkers,Apex Legends,Completed
+M03,Group Stage,2027-10-25,03:00 PM NPT,Court 1 - Main Arena,Tech Titans,Maitidevi Mavericks,Completed
+M04,Group Stage,2027-10-26,09:30 AM NPT,Court 2 - East Wing,APU Thunderbolts,Kathmandu Vipers,Completed
+M05,Round of 16,2027-10-26,11:00 AM NPT,Court 1 - Main Arena,Cyber Warriors,Tech Titans,Live
+M06,Group Stage,2027-10-26,02:00 PM NPT,Court 2 - East Wing,Cloud Hawks,Maitidevi Mavericks,Postponed
+M07,Quarterfinals,2027-10-27,11:00 AM NPT,Court 1 - Main Arena,Cyber Warriors,Maitidevi Mavericks,Upcoming
+M08,Quarterfinals,2027-10-27,02:30 PM NPT,Court 1 - Main Arena,KTM Dunkers,APU Thunderbolts,Upcoming
+M09,Quarterfinals,2027-10-27,05:00 PM NPT,Court 1 - Main Arena,Tech Titans,Cloud Hawks,Upcoming
+M10,Semifinals,2027-10-28,01:00 PM NPT,Court 1 - Main Arena,Winner QF 1,Winner QF 2,Upcoming
+M11,Semifinals,2027-10-28,04:00 PM NPT,Court 1 - Main Arena,Winner QF 3,Winner QF 4,Upcoming
+M12,3rd Place,2027-10-29,02:00 PM NPT,Court 1 - Main Arena,Loser SF 1,Loser SF 2,Upcoming
+M13,Final,2027-10-30,03:30 PM NPT,Court 1 - Main Arena,Finalist Alpha,Finalist Beta,Upcoming
+CER-02,Ceremony,2027-10-30,06:00 PM NPT,Court 1 - Main Arena,All Teams & Officials,Dignitaries & Guests,Upcoming
